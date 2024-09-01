@@ -17,7 +17,7 @@ module.exports = {
   PORT: toBool(process.env.PORT) || 8000,
   PM_BLOCKER: toBool(process.env.PM_BLOCKER) || false,
   PM_BLOCKER_MSG: process.env.PM_BLOCKER_MSG || "_*Pm blocker active on this chat*_",
-  AUDIO_DATA: process.env.AUDIO_DATA || 'ʟᴏᴋɪ-xᴇʀ;ᴊᴀʀᴠɪꜱ;https://i.imgur.com/ep3UbBP.jpg',
+  AUDIO_DATA: process.env.AUDIO_DATA || 'MR KALANA;𝐙𝐎𝐘𝐀 𝐌𝐃;https://i.imgur.com/ep3UbBP.jpg',
   WARN_COUNT: process.env.WARN_COUNT || '3',
   ANTILINK_MSG: process.env.ANTILINK_MSG || "_*Link Not allowed in this group*_",
   ANTIBOT_MSG: process.env.ANTIBOT_MSG || "_*Bot Not allowed in this group*_",
@@ -51,7 +51,7 @@ module.exports = {
   LOG_MSG: toBool(process.env.LOG_MSG) || true,
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || '',
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
-  BOT_INFO: process.env.BOT_INFO || 'ᴊᴀʀᴠɪꜱ;ʟᴏᴋɪ-xᴇʀ;https://i.imgur.com/VIpl3q5.mp4',
+  BOT_INFO: process.env.BOT_INFO || '𝐙𝐎𝐘𝐀 𝐌𝐃;Kalana Jeewanthe;https://i.imgur.com/VIpl3q5.mp4',
   WORK_TYPE: process.env.WORK_TYPE || 'public',
   DATABASE: DATABASE_URL === "./database.db" ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: "postgres", ssl: true, protocol: "postgres", dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
 };
